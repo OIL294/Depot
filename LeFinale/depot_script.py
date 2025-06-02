@@ -11,10 +11,6 @@ from depot_bd_ui import Ui_MainWindow
 from delete_dialog_ui import Ui_Dialog as Ui_Delete
 
 
-from PyQt6 import QtCore, QtGui, QtWidgets
-from PyQt6 import uic
-
-
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
