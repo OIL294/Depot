@@ -3,7 +3,7 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="windowModality">
-   <enum>Qt::NonModal</enum>
+   <enum>Qt::WindowModality::NonModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -48,7 +48,7 @@
      <item>
       <widget class="QTabWidget" name="DatabaseTab">
        <property name="currentIndex">
-        <number>0</number>
+        <number>2</number>
        </property>
        <property name="iconSize">
         <size>
@@ -147,7 +147,7 @@
                   </sizepolicy>
                  </property>
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -208,7 +208,7 @@
                <item>
                 <widget class="Line" name="line_2">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -259,7 +259,7 @@
                <item>
                 <widget class="Line" name="line_3">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -376,7 +376,7 @@
                <item>
                 <widget class="Line" name="line_4">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -444,7 +444,7 @@
                <item>
                 <widget class="Line" name="line_5">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -485,7 +485,7 @@
                <item>
                 <widget class="Line" name="line_6">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -540,7 +540,7 @@
           <item>
            <widget class="QTabWidget" name="ActionsRoute">
             <property name="currentIndex">
-             <number>0</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="AddRouteWidget">
              <attribute name="title">
@@ -549,10 +549,10 @@
              <widget class="QWidget" name="verticalLayoutWidget_11">
               <property name="geometry">
                <rect>
-                <x>9</x>
-                <y>9</y>
+                <x>10</x>
+                <y>10</y>
                 <width>371</width>
-                <height>505</height>
+                <height>381</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -619,7 +619,7 @@
                <item>
                 <widget class="Line" name="line_7">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -640,10 +640,10 @@
              <widget class="QWidget" name="verticalLayoutWidget_12">
               <property name="geometry">
                <rect>
-                <x>9</x>
-                <y>9</y>
+                <x>10</x>
+                <y>10</y>
                 <width>371</width>
-                <height>505</height>
+                <height>391</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -710,7 +710,7 @@
                <item>
                 <widget class="Line" name="line_8">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -751,7 +751,7 @@
                <item>
                 <widget class="Line" name="line_9">
                  <property name="orientation">
-                  <enum>Qt::Vertical</enum>
+                  <enum>Qt::Orientation::Vertical</enum>
                  </property>
                 </widget>
                </item>
@@ -795,7 +795,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>33</height>
     </rect>
    </property>
   </widget>
